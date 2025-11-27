@@ -47,7 +47,7 @@ const CreativeInputBar = ({ value, onChange, onSubmit, onStartCreation }) => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <button className="p-2 border border-slate-200 rounded hover:bg-slate-50">
-                <img src="./src/assets/images/image_8.png" alt="edit" className="w-4 h-4" />
+                <img src="./src/assets/images/chatbot/image_8.png" alt="edit" className="w-4 h-4" />
               </button>
               <button 
                 onClick={handleStyleToggle}
@@ -57,7 +57,7 @@ const CreativeInputBar = ({ value, onChange, onSubmit, onStartCreation }) => {
                     : 'border-slate-200 text-slate-400 hover:bg-slate-50'
                 }`}
               >
-                <img src="./src/assets/images/image_9.png" alt="style" className="w-4 h-4 mr-1" />
+                <img src="./src/assets/images/chatbot/image_9.png" alt="style" className="w-4 h-4 mr-1" />
                 风格
               </button>
               <button 
@@ -68,7 +68,7 @@ const CreativeInputBar = ({ value, onChange, onSubmit, onStartCreation }) => {
                     : 'border-slate-200 text-slate-400 hover:bg-slate-50'
                 }`}
               >
-                <img src="./src/assets/images/image_10.png" alt="role" className="w-4 h-4 mr-1" />
+                <img src="./src/assets/images/chatbot/image_10.png" alt="role" className="w-4 h-4 mr-1" />
                 角色
               </button>
             </div>
@@ -77,7 +77,7 @@ const CreativeInputBar = ({ value, onChange, onSubmit, onStartCreation }) => {
               onClick={onSubmit}
               className="w-10 h-10 bg-primary-600 rounded-full flex items-center justify-center hover:bg-primary-700 transition-colors"
             >
-              <img src="./src/assets/images/image_11.png" alt="send" className="w-5 h-5" />
+              <img src="./src/assets/images/chatbot/image_11.png" alt="send" className="w-5 h-5" />
             </button>
           </div>
         </div>

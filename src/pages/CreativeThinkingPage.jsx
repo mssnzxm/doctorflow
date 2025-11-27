@@ -27,7 +27,7 @@ const CreativeThinkingPage = () => {
       <div className="w-[751px] h-full flex flex-col border-r border-slate-200 bg-slate-50">
         <div className="w-[504px] ml-[247px] p-4">
           <button className="w-[113px] h-[40px] bg-slate-100 border border-slate-200 rounded-full flex items-center justify-center hover:bg-slate-200 transition-colors">
-            <img src="/src/assets/images/image_1.png" alt="new chat" className="w-5 h-5 mr-1" />
+            <img src="/src/assets/images/chatbot/image_1.png" alt="new chat" className="w-5 h-5 mr-1" />
             <span className="text-sm font-semibold text-slate-700">新对话</span>
           </button>
         </div>
@@ -35,7 +35,7 @@ const CreativeThinkingPage = () => {
         <div className="px-6 py-4">
           <div className="flex items-center mb-2">
             <div className="w-8 h-8 bg-indigo-100 rounded-full flex items-center justify-center mr-2">
-              <img src="/src/assets/images/image_2.png" alt="health planner" className="w-5 h-5" />
+              <img src="/src/assets/images/chatbot/image_2.png" alt="health planner" className="w-5 h-5" />
             </div>
             <span className="text-base font-bold text-slate-800">健康策划师</span>
           </div>
@@ -66,10 +66,10 @@ const CreativeThinkingPage = () => {
         <div className="h-20 border-b border-slate-200 flex items-center justify-end px-8 bg-white">
           <div className="flex items-center space-x-2">
             <button className="p-2 rounded-lg hover:bg-slate-100">
-              <img src="/src/assets/images/image_28.png" alt="menu" className="w-5 h-4" />
+              <img src="/src/assets/images/chatbot/image_28.png" alt="menu" className="w-5 h-4" />
             </button>
             <button className="p-2 rounded-lg hover:bg-slate-100">
-              <img src="/src/assets/images/image_29.png" alt="settings" className="w-5 h-5" />
+              <img src="/src/assets/images/chatbot/image_29.png" alt="settings" className="w-5 h-5" />
             </button>
             <div className="relative">
               <div className="w-10 h-10 bg-slate-300 rounded-full flex items-center justify-center">

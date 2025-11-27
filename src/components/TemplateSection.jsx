@@ -2,10 +2,10 @@ import React from 'react'
 import TemplateCard from './TemplateCard'
 
 const templates = [
-  { id: 1, title: '健康科普', image: './src/assets/images/image_8.png', bg: './src/assets/images/image_7.png' },
-  { id: 2, title: '病例故事', image: './src/assets/images/image_10.png', bg: './src/assets/images/image_9.png' },
-  { id: 3, title: '医美故事', image: './src/assets/images/image_12.png', bg: './src/assets/images/image_11.png' },
-  { id: 4, title: '心理小剧场', image: './src/assets/images/image_14.png', bg: './src/assets/images/image_13.png' },
+  { id: 1, title: '健康科普', image: './src/assets/images/image_7.png', bg: './src/assets/images/image_7.png' },
+  { id: 2, title: '病例故事', image: './src/assets/images/image_9.png', bg: './src/assets/images/image_9.png' },
+  { id: 3, title: '医美故事', image: './src/assets/images/image_11.png', bg: './src/assets/images/image_11.png' },
+  { id: 4, title: '心理小剧场', image: './src/assets/images/image_13.png', bg: './src/assets/images/image_13.png' },
   { id: 5, title: '热点快讯', image: './src/assets/images/image_16.png', bg: './src/assets/images/image_15.png' },
   { id: 6, title: '数字人视频', image: './src/assets/images/image_18.png', bg: './src/assets/images/image_17.png' },
   { id: 7, title: '动画科普', image: './src/assets/images/image_20.png', bg: './src/assets/images/image_19.png' },

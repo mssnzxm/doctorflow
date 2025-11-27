@@ -3,6 +3,7 @@ import HomePage from './pages/HomePage'
 import ChatbotRecommendPage from './pages/ChatbotRecommendPage'
 import CreativeTeamPage from './pages/CreativeTeamPage'
 import CreativeThinkingPage from './pages/CreativeThinkingPage'
+import ScriptReviewPage from './pages/ScriptReviewPage'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/chatbot" element={<ChatbotRecommendPage />} />
           <Route path="/creative-team" element={<CreativeTeamPage />} />
           <Route path="/creative-thinking" element={<CreativeThinkingPage />} />
+          <Route path="/script-review" element={<ScriptReviewPage />} />
         </Routes>
       </div>
     </Router>
