@@ -4,6 +4,8 @@ import ChatbotRecommendPage from './pages/ChatbotRecommendPage'
 import CreativeTeamPage from './pages/CreativeTeamPage'
 import CreativeThinkingPage from './pages/CreativeThinkingPage'
 import ScriptReviewPage from './pages/ScriptReviewPage'
+import CharacterRecommendPage from './pages/CharacterRecommendPage'
+// 在Routes中添加
 
 function App() {
   return (
@@ -14,7 +16,8 @@ function App() {
           <Route path="/chatbot" element={<ChatbotRecommendPage />} />
           <Route path="/creative-team" element={<CreativeTeamPage />} />
           <Route path="/creative-thinking" element={<CreativeThinkingPage />} />
-          <Route path="/script-review" element={<ScriptReviewPage />} />
+          <Route path="/script-review" element={<ScriptReviewPage />} />  
+          <Route path="/character-recommend" element={<CharacterRecommendPage />} />
         </Routes>
       </div>
     </Router>
